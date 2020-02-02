@@ -1,0 +1,218 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'Top_module'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o Top_module_map.ncd Top_module.ngd Top_module.pcf 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -1
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Tue Oct 15 14:56:57 2019
+
+WARNING:LIT:701 - PAD symbol "ins<31>" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "ins<31>" is not constrained (LOC) to a specific
+   location.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 52 secs 
+Total CPU  time at the beginning of Placer: 50 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:979283f6) REAL time: 58 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 187 IOs, 35 are locked
+   and 152 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+
+ERROR:Place:866 - Not enough valid sites to place the following IOBs:
+   IO Standard: Name = LVCMOS18, VREF = NR, VCCO = 1.80, TERM = NONE, DIR =
+   OUTPUT, DRIVE_STR = 12
+   	ans_wb<15>
+   	ans_wb<10>
+   	ans_wb<12>
+   	ans_wb<11>
+   	ans_wb<14>
+   	ans_wb<13>
+   	Current_Address<15>
+   	Current_Address<10>
+   	Current_Address<12>
+   	Current_Address<11>
+   	Current_Address<14>
+   	Current_Address<13>
+   	B<10>
+   	B<11>
+   	B<12>
+   	B<13>
+   	B<14>
+   	B<15>
+   	ans_ex<15>
+   	ans_wb<2>
+   	ans_wb<1>
+   	ans_wb<4>
+   	ans_wb<3>
+   	ans_wb<0>
+   	ans_ex<10>
+   	ans_wb<9>
+   	ans_ex<12>
+   	ans_ex<11>
+   	ans_wb<6>
+   	ans_ex<14>
+   	ans_wb<5>
+   	ans_ex<13>
+   	ans_wb<8>
+   	ans_wb<7>
+   	A<0>
+   	A<1>
+   	A<2>
+   	A<3>
+   	A<4>
+   	A<5>
+   	A<6>
+   	A<7>
+   	A<8>
+   	A<9>
+   	flag_ex<1>
+   	flag_ex<0>
+   	imm<14>
+   	imm<13>
+   	imm<12>
+   	imm<11>
+   	imm<10>
+   	imm<15>
+   	mux_sel_A<0>
+   	mux_sel_A<1>
+   	imm<0>
+   	imm<1>
+   	imm<2>
+   	imm<3>
+   	ins<0>
+   	imm<4>
+   	ins<1>
+   	imm<5>
+   	ins<2>
+   	imm<6>
+   	ins<3>
+   	imm<7>
+   	ins<4>
+   	imm<8>
+   	ins<5>
+   	imm<9>
+   	ins<6>
+   	ins<7>
+   	ins<8>
+   	ins<9>
+   	ins<14>
+   	ins<13>
+   	ins<12>
+   	ins<11>
+   	ins<10>
+   	ins<19>
+   	ins<18>
+   	ins<17>
+   	ins<16>
+   	ins<15>
+   	ins<24>
+   	ins<23>
+   	ins<22>
+   	ins<21>
+   	imm_sel
+   	ins<20>
+   	ins<29>
+   	ins<28>
+   	ins<27>
+   	ins<26>
+   	ins<25>
+   	ins<31>
+   	ins<30>
+   	ans_dm<2>
+   	ans_dm<1>
+   	ans_dm<4>
+   	ans_dm<3>
+   	ans_dm<0>
+   	ans_dm<9>
+   	ans_dm<6>
+   	ans_dm<5>
+   	ans_dm<8>
+   	ans_dm<7>
+   	ans_dm<15>
+   	Current_Address<4>
+   	Current_Address<3>
+   	Current_Address<2>
+   	Current_Address<1>
+   	Current_Address<0>
+   	ans_dm<10>
+   	ans_dm<12>
+   	ans_dm<11>
+   	ans_dm<14>
+   	ans_dm<13>
+   	Current_Address<9>
+   	Current_Address<8>
+   	Current_Address<7>
+   	A<10>
+   	Current_Address<6>
+   	A<11>
+   	Current_Address<5>
+   	A<12>
+   	A<13>
+   	A<14>
+   	A<15>
+   	B<0>
+   	B<1>
+   	B<2>
+   	B<3>
+   	B<4>
+   	B<5>
+   	B<6>
+   	B<7>
+   	B<8>
+   	B<9>
+   	pc_mux_sel
+   	mux_sel_B<0>
+   	mux_sel_B<1>
+   	ans_ex<2>
+   	ans_ex<1>
+   	ans_ex<4>
+   	ans_ex<3>
+   	ans_ex<0>
+   	ans_ex<9>
+   	ans_ex<6>
+   	ans_ex<5>
+   	ans_ex<8>
+   	ans_ex<7>
+
+   This may be due to either an insufficient number of sites available on the
+   device, too many prohibited sites,
+   or incompatible I/O Standards locked or range constrained to I/O Banks with
+   valid sites.
+       This situation could possibly be resolved by one (or all) of the
+   following actions:
+   a) Grouping IOBs of similar standards into a minimum amount of I/O Banks by
+   using LOC or range constraints.
+   b) Maximizing available I/O Banks resources for special IOBs by choosing
+   lower capacity I/O Banks if possible.
+   c) If applicable, decreasing the number of user prohibited sites or using a
+   larger device.
+
+Phase 2.7  Design Feasibility Check (Checksum:979283f6) REAL time: 58 secs 
+
+Total REAL time to Placer completion: 58 secs 
+Total CPU  time to Placer completion: 56 secs 
+ERROR:Pack:1654 - The timing-driven placement phase encountered an error.
+
+Mapping completed.
+See MAP report file "Top_module_map.mrp" for details.
+Problem encountered during the packing phase.
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   2
