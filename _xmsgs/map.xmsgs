@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="701" delta="old" ><arg fmt="%s" index="1">PAD symbol &quot;ins&lt;31&gt;&quot;</arg> has an undefined IOSTANDARD.
+</msg>
+
+<msg type="warning" file="LIT" num="702" delta="old" ><arg fmt="%s" index="1">PAD symbol &quot;ins&lt;31&gt;&quot;</arg> is not constrained (LOC) to a specific location.
+</msg>
+
+<msg type="info" file="LIT" num="243" delta="old" >Logical network <arg fmt="%s" index="1">R/Mram_reg_bank134/SPO</arg> has no load.
+</msg>
+
+<msg type="info" file="LIT" num="395" delta="old" >The above <arg fmt="%s" index="1">info</arg> message is repeated <arg fmt="%d" index="2">7</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="3">R/Mram_reg_bank133/SPO,
+R/Mram_reg_bank131/SPO,
+R/Mram_reg_bank44/SPO,
+R/Mram_reg_bank132/SPO,
+R/Mram_reg_bank42/SPO</arg>
+To see the details of these <arg fmt="%s" index="4">info</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="info" file="Pack" num="1716" delta="old" >Initializing temperature to <arg fmt="%0.3f" index="1">85.000</arg> Celsius. (default - Range: <arg fmt="%0.3f" index="2">0.000</arg> to <arg fmt="%0.3f" index="3">85.000</arg> Celsius)
+</msg>
+
+<msg type="info" file="Pack" num="1720" delta="old" >Initializing voltage to <arg fmt="%0.3f" index="1">0.950</arg> Volts. (default - Range: <arg fmt="%0.3f" index="2">0.950</arg> to <arg fmt="%0.3f" index="3">1.050</arg> Volts)
+</msg>
+
+<msg type="info" file="Map" num="215" delta="old" >The Interim Design Summary has been generated in the MAP Report (.mrp).
+</msg>
+
+<msg type="info" file="Place" num="834" delta="old" >Only a subset of IOs are locked. Out of <arg fmt="%d" index="1">187</arg> IOs, <arg fmt="%d" index="2">35</arg> are locked and <arg fmt="%d" index="3">152</arg> are not locked. <arg fmt="%s" index="4">If you would like to print the names of these IOs, please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1.</arg> 
+</msg>
+
+<msg type="error" file="Place" num="866" delta="old" >Not enough valid sites to place the following IOBs:
+IO Standard: <arg fmt="%s" index="1">Name = LVCMOS18, VREF = NR, VCCO = 1.80, TERM = NONE, DIR = OUTPUT, DRIVE_STR = 12
+</arg><arg fmt="%s" index="2">	ans_wb&lt;15&gt;
+	ans_wb&lt;10&gt;
+	ans_wb&lt;12&gt;
+	ans_wb&lt;11&gt;
+	ans_wb&lt;14&gt;
+	ans_wb&lt;13&gt;
+	Current_Address&lt;15&gt;
+	Current_Address&lt;10&gt;
+	Current_Address&lt;12&gt;
+	Current_Address&lt;11&gt;
+	Current_Address&lt;14&gt;
+	Current_Address&lt;13&gt;
+	B&lt;10&gt;
+	B&lt;11&gt;
+	B&lt;12&gt;
+	B&lt;13&gt;
+	B&lt;14&gt;
+	B&lt;15&gt;
+	ans_ex&lt;15&gt;
+	ans_wb&lt;2&gt;
+	ans_wb&lt;1&gt;
+	ans_wb&lt;4&gt;
+	ans_wb&lt;3&gt;
+	ans_wb&lt;0&gt;
+	ans_ex&lt;10&gt;
+	ans_wb&lt;9&gt;
+	ans_ex&lt;12&gt;
+	ans_ex&lt;11&gt;
+	ans_wb&lt;6&gt;
+	ans_ex&lt;14&gt;
+	ans_wb&lt;5&gt;
+	ans_ex&lt;13&gt;
+	ans_wb&lt;8&gt;
+	ans_wb&lt;7&gt;
+	A&lt;0&gt;
+	A&lt;1&gt;
+	A&lt;2&gt;
+	A&lt;3&gt;
+	A&lt;4&gt;
+	A&lt;5&gt;
+	A&lt;6&gt;
+	A&lt;7&gt;
+	A&lt;8&gt;
+	A&lt;9&gt;
+	flag_ex&lt;1&gt;
+	flag_ex&lt;0&gt;
+	imm&lt;14&gt;
+	imm&lt;13&gt;
+	imm&lt;12&gt;
+	imm&lt;11&gt;
+	imm&lt;10&gt;
+	imm&lt;15&gt;
+	mux_sel_A&lt;0&gt;
+	mux_sel_A&lt;1&gt;
+	imm&lt;0&gt;
+	imm&lt;1&gt;
+	imm&lt;2&gt;
+	imm&lt;3&gt;
+	ins&lt;0&gt;
+	imm&lt;4&gt;
+	ins&lt;1&gt;
+	imm&lt;5&gt;
+	ins&lt;2&gt;
+	imm&lt;6&gt;
+	ins&lt;3&gt;
+	imm&lt;7&gt;
+	ins&lt;4&gt;
+	imm&lt;8&gt;
+	ins&lt;5&gt;
+	imm&lt;9&gt;
+	ins&lt;6&gt;
+	ins&lt;7&gt;
+	ins&lt;8&gt;
+	ins&lt;9&gt;
+	ins&lt;14&gt;
+	ins&lt;13&gt;
+	ins&lt;12&gt;
+	ins&lt;11&gt;
+	ins&lt;10&gt;
+	ins&lt;19&gt;
+	ins&lt;18&gt;
+	ins&lt;17&gt;
+	ins&lt;16&gt;
+	ins&lt;15&gt;
+	ins&lt;24&gt;
+	ins&lt;23&gt;
+	ins&lt;22&gt;
+	ins&lt;21&gt;
+	imm_sel
+	ins&lt;20&gt;
+	ins&lt;29&gt;
+	ins&lt;28&gt;
+	ins&lt;27&gt;
+	ins&lt;26&gt;
+	ins&lt;25&gt;
+	ins&lt;31&gt;
+	ins&lt;30&gt;
+	ans_dm&lt;2&gt;
+	ans_dm&lt;1&gt;
+	ans_dm&lt;4&gt;
+	ans_dm&lt;3&gt;
+	ans_dm&lt;0&gt;
+	ans_dm&lt;9&gt;
+	ans_dm&lt;6&gt;
+	ans_dm&lt;5&gt;
+	ans_dm&lt;8&gt;
+	ans_dm&lt;7&gt;
+	ans_dm&lt;15&gt;
+	Current_Address&lt;4&gt;
+	Current_Address&lt;3&gt;
+	Current_Address&lt;2&gt;
+	Current_Address&lt;1&gt;
+	Current_Address&lt;0&gt;
+	ans_dm&lt;10&gt;
+	ans_dm&lt;12&gt;
+	ans_dm&lt;11&gt;
+	ans_dm&lt;14&gt;
+	ans_dm&lt;13&gt;
+	Current_Address&lt;9&gt;
+	Current_Address&lt;8&gt;
+	Current_Address&lt;7&gt;
+	A&lt;10&gt;
+	Current_Address&lt;6&gt;
+	A&lt;11&gt;
+	Current_Address&lt;5&gt;
+	A&lt;12&gt;
+	A&lt;13&gt;
+	A&lt;14&gt;
+	A&lt;15&gt;
+	B&lt;0&gt;
+	B&lt;1&gt;
+	B&lt;2&gt;
+	B&lt;3&gt;
+	B&lt;4&gt;
+	B&lt;5&gt;
+	B&lt;6&gt;
+	B&lt;7&gt;
+	B&lt;8&gt;
+	B&lt;9&gt;
+	pc_mux_sel
+	mux_sel_B&lt;0&gt;
+	mux_sel_B&lt;1&gt;
+	ans_ex&lt;2&gt;
+	ans_ex&lt;1&gt;
+	ans_ex&lt;4&gt;
+	ans_ex&lt;3&gt;
+	ans_ex&lt;0&gt;
+	ans_ex&lt;9&gt;
+	ans_ex&lt;6&gt;
+	ans_ex&lt;5&gt;
+	ans_ex&lt;8&gt;
+	ans_ex&lt;7&gt;
+
+</arg>This may be due to either an insufficient number of sites available on the device, too many prohibited sites,
+or incompatible I/O Standards locked or range constrained to I/O Banks with valid sites.
+    This situation could possibly be resolved by one (or all) of the following actions:
+a) Grouping IOBs of similar standards into a minimum amount of I/O Banks by using LOC or range constraints.
+b) Maximizing available I/O Banks resources for special IOBs by choosing lower capacity I/O Banks if possible.
+c) If applicable, decreasing the number of user prohibited sites or using a larger device.
+</msg>
+
+<msg type="error" file="Pack" num="1654" delta="old" >The timing-driven placement phase encountered an error.
+</msg>
+
+</messages>
+
